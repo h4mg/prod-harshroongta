@@ -520,23 +520,29 @@ figure {
       align-items: flex-end;
 }
 
-section, .text {
-  -ms-flex: 0 1 75%;
-      flex: 0 1 75%;
+@media (min-width: 800px) {
+  section, .text {
+    -ms-flex: 0 1 75%;
+        flex: 0 1 75%;
+  }
+  aside, figure {
+    -ms-flex: 0 1 25%;
+        flex: 0 1 25%;
+  }
 }
 
-aside, figure {
-  -ms-flex: 0 1 25%;
-      flex: 0 1 25%;
+header figure {
+  width: 100%;
 }
 
 header img {
+  width: 100%;
   max-width: 300px;
 }
 
 @media (min-width: 800px) {
   section {
-    margin-top: -15rem;
+    margin-top: -10rem;
   }
 }
 
