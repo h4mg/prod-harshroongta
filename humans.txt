@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+	
+	Design 				by Hamsa Ganesh for Thoughtput
+	Development			by Hamsa Ganesh for Thoughtput
+	Maintainence		by Hamsa Ganesh for Thoughtput
+
+
+# THANKS
+
+    Sassy starter		by Mina Markham
+
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, github pages
