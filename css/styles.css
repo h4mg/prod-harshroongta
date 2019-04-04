@@ -374,7 +374,7 @@ h3, h5, p {
 }
 
 /* color */
-dt, h4 {
+h4, a {
   color: #4990E2;
 }
 
@@ -384,6 +384,10 @@ h2 {
   padding-bottom: 4.5rem;
   padding-top: 3rem;
   position: relative;
+}
+
+dt:last-child, dd:last-child {
+  color: grey;
 }
 
 /*==================================================
@@ -442,12 +446,17 @@ h1, h2, h3, h4, h5, h6, p, figure, img {
   margin: 0;
 }
 
-h1, dt, h4 {
+h1, h4 {
   margin-bottom: 1.5rem;
 }
 
+dt {
+  margin-bottom: .5rem;
+}
+
 .social,
-h3, p, dd {
+h3, p, dd,
+hr {
   margin-bottom: 3rem;
 }
 
@@ -488,6 +497,10 @@ section {
   section {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   }
+}
+
+hr {
+  color: lightgrey;
 }
 
 /* ==========================================================================
