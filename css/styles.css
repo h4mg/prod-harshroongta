@@ -386,7 +386,7 @@ h2 {
   position: relative;
 }
 
-dt:last-child, dd:last-child {
+.text--grey {
   color: grey;
 }
 
